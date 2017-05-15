@@ -1,0 +1,72 @@
+#header {
+	background-color: #201647;
+	height: 80px;
+}
+
+#closed_period {
+	display: none;
+  margin: 20px 0;
+}
+
+#timetable li {
+	list-style-type: none;
+}
+
+#map {
+    height: 600px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+#defined-radius {
+    background: #fff;
+    top: 18%;
+    left: 40%;
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #ababab; 
+}
+
+ul#filter { 
+  float: left; 
+  font-size: 16px; 
+  list-style: none; 
+  margin-left: 0; 
+  width: 100%;
+}
+ul#filter li { 
+  border-right: 1px solid #dedede;
+  float: left;
+  line-height: 16px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+ul#filter li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+ul#filter a { color: #999; text-decoration: none; }
+
+ul#filter li.current a, ul#filter a:hover { text-decoration: underline; }
+ul#filter li.current a { color: #333; font-weight: bold; }
+
+ul#species_list { 
+  float: left; 
+  list-style: none; 
+  margin-left: 0; 
+  width: 672px;
+}
+ul#species_list li { 
+  border: 1px solid #dedede; 
+  float: left; 
+  margin: 0 10px 10px 0; 
+  padding: 5px;
+  width: 202px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+  }
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #ececec;
+  }
